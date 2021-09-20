@@ -1,0 +1,195 @@
+body{
+    direction: rtl;
+    text-align: right;
+}
+
+.text-left{
+    text-align: right !important;
+}
+.re-radios{
+	margin-left: 0px;
+    margin-right:30px;
+}
+
+/* .display-2 {
+	margin-right: 0px;
+    margin-left:20px;
+} */
+
+  .re-married{
+	  position: relative;
+  }
+  .re-married:before{
+      right:10px;
+	  left:unset;
+	}
+
+	.re-show:after{
+        right:unset;
+		left:5px;
+	}
+
+
+.v-text-field--outline>.v-input__control>.v-input__slot{
+	border-top-left-radius: 0px!important;
+	border-bottom-left-radius: 0px!important;
+    border-top-right-radius: 4px!important;
+	border-bottom-right-radius: 4px!important;
+}
+.re-phone-num.theme--light.v-text-field--outline>.v-input__control>.v-input__slot {
+    border-top-right-radius: 4px!important;
+    border-bottom-right-radius: 4px!important;
+}
+.re-input.theme--light.v-text-field--outline>.v-input__control>.v-input__slot {
+    border-top-right-radius: 4px!important;
+    border-bottom-right-radius: 4px!important;
+}
+.re-phone-num.theme--light.v-text-field--outline>.v-input__control>.v-input__slot {
+    border-right: none;
+	border-top-right-radius: 0px!important;
+	border-bottom-right-radius: 0px!important;
+    border-top-left-radius: 4px!important;
+	border-bottom-left-radius: 4px!important;
+    border-left: 2px solid rgba(0,0,0,.54);
+}
+.theme--light.v-text-field--outline:not(.v-input--is-focused):not(.v-input--has-state)>.v-input__control>.v-input__slot:hover {
+	border: 2px solid rgba(0,0,0,.54);
+}
+.re-phone-num.theme--light.v-text-field--outline:not(.v-input--is-focused):not(.v-input--has-state)>.v-input__control>.v-input__slot:hover {
+	border-left: none;
+}
+
+/* .re-centered-label .v-label{
+    left:unset!important;
+	right:50%!important;
+} */
+
+.re-nationality .v-select__slot{
+    position: relative;
+}
+.re-nationality .v-input__append-inner{
+    position: absolute;
+}
+.re-radios .v-radio label{
+    margin-inline-start:10px;
+}
+.v-list__tile__title{
+text-align: right;
+}
+.ml-2 {
+    margin-left: 0px!important;
+    margin-right: 8px!important;
+}
+.ml-3 {
+    margin-right: 16px!important;
+    margin-left:unset!important;
+}
+a.v-list__tile.v-list__tile--link.v-list__tile--active.theme--light.primary--text {
+    justify-content: space-around;
+}
+@media(min-width:1298px){
+	.re-filter .v-menu__content{
+		right: unset!important;
+		left: 200!important;
+	}
+}
+
+@media(max-width:992px){
+	.re-pos{
+		right:15px;
+        left:unset;
+	}
+}
+
+.text-xs-right{
+    text-align: left!important;
+}
+.text-xs-left {
+    text-align: right!important;
+}
+th.text-xs-right{
+    text-align: right!important;
+}
+.pl-4 {
+    padding-right: 24px!important;
+    padding-left:0!important;
+}
+@media(max-width:600px){
+    .pl-4 {
+        padding-right: 0px!important;
+        padding-left:0!important;
+    }
+}
+@media (max-width:375px) {
+    .ml-3{
+        margin-inline-start: 24px!important;
+       
+    }
+}
+/***************Start of Action List pages**********************/
+.v-expansion-panel__header{
+    text-align: start;
+}
+.triangle{
+	right:-5px;
+    left:unset;
+}
+
+.first-column div{
+right:-8px;
+left:unset;
+}
+
+.re-advanced .v-expansion-panel__header:after{
+	left: 16px;
+    right:unset;
+}
+.v-select__slot label{
+    left:auto!important;
+    right:0px!important;
+}
+.tox-toolbar{
+    direction: rtl!important;
+}
+.v-card__actions .v-btn+.v-btn{
+    margin-left:unset;
+    margin-right:8px;
+}
+.flip-dir{
+    direction: rtl;
+}
+.re-pagination li:first-child .v-icon{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.re-pagination li:last-child .v-icon{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.v-icon--right {
+    margin-right: 16px;
+    margin-left:unset;
+}
+.pl-5 {
+    padding-right: 48px!important;
+    padding-left:unset;
+}
+.r-p{
+    text-align: start;
+}
+.mr-3 {
+    margin-left: 16px!important;
+    margin-right: unset!important;
+}
+.v-text-field--box input, .v-text-field--full-width input, .v-text-field--outline input {
+    margin-top: 4px;
+}
+h4{
+    text-align: start;
+}
